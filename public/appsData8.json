@@ -1,0 +1,146 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg",
+    "title": "WhatsApp Messenger",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 1,
+    "description": "A free messaging and video calling app used by over 2 billion people in more than 180 countries.",
+    "size": 128.6,
+    "reviews": 121300,
+    "ratingAvg": 4.7,
+    "downloads": "10B+",
+    "ratings": [
+      { "name": "1 star", "count": 10000 },
+      { "name": "2 star", "count": 20000 },
+      { "name": "3 star", "count": 30000 },
+      { "name": "4 star", "count": 40000 },
+      { "name": "5 star", "count": 50000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg",
+    "title": "Facebook",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 2,
+    "description": "A social networking platform that connects people with friends and others who work, study, and live around them.",
+    "size": 391.5,
+    "reviews": 22700000,
+    "ratingAvg": 4.5,
+    "downloads": "10B+",
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 1000000 },
+      { "name": "3 star", "count": 2000000 },
+      { "name": "4 star", "count": 3000000 },
+      { "name": "5 star", "count": 5000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg",
+    "title": "Instagram",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 3,
+    "description": "A photo and video sharing social networking service where users can upload photos and videos.",
+    "size": 493.1,
+    "reviews": 28200000,
+    "ratingAvg": 4.7,
+    "downloads": "10B+",
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 800000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 1600000 },
+      { "name": "5 star", "count": 2000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/9f7Phd0/Tiktok-Logo-Tiktok-logo-HD-JPEG-file.jpg",
+    "title": "TikTok",
+    "companyName": "ByteDance",
+    "id": 4,
+    "description": "A short-form video hosting service where users can create and share 15-second videos.",
+    "size": 635.9,
+    "reviews": 1300000,
+    "ratingAvg": 4.6,
+    "downloads": "10B+",
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 900000 },
+      { "name": "4 star", "count": 1200000 },
+      { "name": "5 star", "count": 1500000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/svyr6t0f/9c9e933c-2278-4528-ac66-3214ff7472d2.jpg",
+    "title": "Spotify",
+    "companyName": "Spotify Technology S.A.",
+    "id": 5,
+    "description": "A music streaming service offering millions of songs and podcasts.",
+    "size": 234.6,
+    "reviews": 25300,
+    "ratingAvg": 4.8,
+    "downloads": "10B+",
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 2000 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 4000 },
+      { "name": "5 star", "count": 5000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 6,
+    "description": "A video sharing service where users can watch, like, share, comment, and upload their own videos.",
+    "size": 339.4,
+    "reviews": 10000000,
+    "ratingAvg": 4.5,
+    "downloads": "10B+",
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 600000 },
+      { "name": "4 star", "count": 800000 },
+      { "name": "5 star", "count": 1000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/23m2GGs6/713eacb5-0c24-4239-b6ad-610bdd16ce83.jpg",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "id": 7,
+    "description": "A multimedia messaging app used to send photos and videos that disappear after being viewed.",
+    "size": 316.4,
+    "reviews": 536700,
+    "ratingAvg": 4.6,
+    "downloads": "10B+",
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 500000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/HLy1Bks5/451782b4-0c8e-4615-a4c1-c38eeb4d44bc.jpg",
+    "title": "Twitter (X)",
+    "companyName": "X Corp.",
+    "id": 8,
+    "description": "A microblogging and social networking service where users post and interact with messages known as 'tweets'.",
+    "size": 0.8,
+    "reviews": 27225,
+    "ratingAvg": 4.2,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 5000 },
+      { "name": "2 star", "count": 10000 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 20000 },
+      { "name": "5 star", "count": 25000 }
+    ]
+  }
+]
