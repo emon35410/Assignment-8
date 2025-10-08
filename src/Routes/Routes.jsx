@@ -1,16 +1,24 @@
 import React from 'react';
 import { createBrowserRouter } from "react-router";
-import Navbar from '../Component/Header/Navbar';
+import Root from '../Pages/Root/Root';
+import ErrorPage from '../Component/ErrorElement/ErrorPage';
+import Home from '../Component/Home/Home';
+
 
 
 export const router = createBrowserRouter([
   {
     path: "/",
-    Component:Navbar,
+    Component:Root,
+    errorElement: <ErrorPage></ErrorPage>,
+    children:[
+      {
+        index:true,
+        path:"/",
+        Component:Home
+      }
+    ]
   },
-  {
-    path:"/emon",
-    element:<h1>Raathhhhhhhhh</h1>
-  }
+  
  
 ]);
