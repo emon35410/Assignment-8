@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg",
+    "title": "WhatsApp Messenger",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 1,
+    "description": "A free messaging and video calling app used by over 2 billion people in more than 180 countries.",
+    "size": 128.6,
+    "reviews": 121300,
+    "ratingAvg": 4.7,
+    "downloads": "10B+",
+    "ratings": [
+      { "name": "1 star", "count": 10000 },
+      { "name": "2 star", "count": 20000 },
+      { "name": "3 star", "count": 30000 },
+      { "name": "4 star", "count": 40000 },
+      { "name": "5 star", "count": 50000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg",
+    "title": "Facebook",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 2,
+    "description": "A social networking platform that connects people with friends and others who work, study, and live around them.",
+    "size": 391.5,
+    "reviews": 22700000,
+    "ratingAvg": 4.5,
+    "downloads": "10B+",
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 1000000 },
+      { "name": "3 star", "count": 2000000 },
+      { "name": "4 star", "count": 3000000 },
+      { "name": "5 star", "count": 5000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg",
+    "title": "Instagram",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 3,
+    "description": "A photo and video sharing social networking service where users can upload photos and videos.",
+    "size": 493.1,
+    "reviews": 28200000,
+    "ratingAvg": 4.7,
+    "downloads": "10B+",
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 800000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 1600000 },
+      { "name": "5 star", "count": 2000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/9f7Phd0/Tiktok-Logo-Tiktok-logo-HD-JPEG-file.jpg",
+    "title": "TikTok",
+    "companyName": "ByteDance",
+    "id": 4,
+    "description": "A short-form video hosting service where users can create and share 15-second videos.",
+    "size": 635.9,
+    "reviews": 1300000,
+    "ratingAvg": 4.6,
+    "downloads": "10B+",
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 900000 },
+      { "name": "4 star", "count": 1200000 },
+      { "name": "5 star", "count": 1500000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/svyr6t0f/9c9e933c-2278-4528-ac66-3214ff7472d2.jpg",
+    "title": "Spotify",
+    "companyName": "Spotify Technology S.A.",
+    "id": 5,
+    "description": "A music streaming service offering millions of songs and podcasts.",
+    "size": 234.6,
+    "reviews": 25300,
+    "ratingAvg": 4.8,
+    "downloads": "10B+",
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 2000 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 4000 },
+      { "name": "5 star", "count": 5000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 6,
+    "description": "A video sharing service where users can watch, like, share, comment, and upload their own videos.",
+    "size": 339.4,
+    "reviews": 10000000,
+    "ratingAvg": 4.5,
+    "downloads": "10B+",
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 600000 },
+      { "name": "4 star", "count": 800000 },
+      { "name": "5 star", "count": 1000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/23m2GGs6/713eacb5-0c24-4239-b6ad-610bdd16ce83.jpg",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "id": 7,
+    "description": "A multimedia messaging app used to send photos and videos that disappear after being viewed.",
+    "size": 316.4,
+    "reviews": 536700,
+    "ratingAvg": 4.6,
+    "downloads": "10B+",
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 500000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/HLy1Bks5/451782b4-0c8e-4615-a4c1-c38eeb4d44bc.jpg",
+    "title": "Twitter (X)",
+    "companyName": "X Corp.",
+    "id": 8,
+    "description": "A microblogging and social networking service where users post and interact with messages known as 'tweets'.",
+    "size": 0.8,
+    "reviews": 27225,
+    "ratingAvg": 4.2,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 5000 },
+      { "name": "2 star", "count": 10000 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 20000 },
+      { "name": "5 star", "count": 25000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/b54Wnmcf/810a30ac-9c7e-4696-a0fb-93f52a28f777.jpg",
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "id": 9,
+    "description": "A streaming service offering movies, TV shows, and documentaries.",
+    "size": 350.7,
+    "reviews": 8900000,
+    "ratingAvg": 4.6,
+    "downloads": "5B+",
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 700000 },
+      { "name": "3 star", "count": 900000 },
+      { "name": "4 star", "count": 1200000 },
+      { "name": "5 star", "count": 2000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/G3vBtqfc/a52d0702-fc91-4d3a-9908-76d22495416f.jpg",
+    "title": "Gmail",
+    "companyName": "Google LLC",
+    "id": 10,
+    "description": "An email service developed by Google with smart features and security.",
+    "size": 129.2,
+    "reviews": 2500000,
+    "ratingAvg": 4.5,
+    "downloads": "10B+",
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 600000 },
+      { "name": "5 star", "count": 1200000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/zTYqNJ89/c9982a7c-8e99-4bf2-a375-59b39d54603e.jpg",
+    "title": "Google Drive",
+    "companyName": "Google LLC",
+    "id": 11,
+    "description": "A cloud storage service that allows users to store files and collaborate online.",
+    "size": 210.5,
+    "reviews": 1800000,
+    "ratingAvg": 4.7,
+    "downloads": "10B+",
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 80000 },
+      { "name": "3 star", "count": 120000 },
+      { "name": "4 star", "count": 200000 },
+      { "name": "5 star", "count": 350000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/vvgKdcY8/64ba8116-9086-4df8-b0d2-45773e16b022.jpg",
+    "title": "Google Photos",
+    "companyName": "Google LLC",
+    "id": 12,
+    "description": "A photo and video sharing and storage service by Google.",
+    "size": 180.3,
+    "reviews": 2200000,
+    "ratingAvg": 4.6,
+    "downloads": "10B+",
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 350000 },
+      { "name": "5 star", "count": 500000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Kp0YVbnw/ZOOM-Cloud-Meetings-4-Zoom.jpg",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications",
+    "id": 13,
+    "description": "A video conferencing app for meetings, webinars, and collaboration.",
+    "size": 255.7,
+    "reviews": 950000,
+    "ratingAvg": 4.5,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 250000 },
+      { "name": "5 star", "count": 400000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/FbmG3NzK/Vector-square-linkedin-logo-isolated-on.jpg",
+    "title": "LinkedIn",
+    "companyName": "Microsoft",
+    "id": 14,
+    "description": "A professional networking platform to connect with colleagues and discover job opportunities.",
+    "size": 312.8,
+    "reviews": 1200000,
+    "ratingAvg": 4.4,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 80000 },
+      { "name": "2 star", "count": 120000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 500000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/sp4Wq9Dd/922e9262-9e09-42d1-b255-a3ed9aa3b44f.jpg",
+    "title": "Telegram",
+    "companyName": "Telegram FZ LLC",
+    "id": 15,
+    "description": "A messaging app with a focus on speed and security.",
+    "size": 245.4,
+    "reviews": 680000,
+    "ratingAvg": 4.6,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 80000 },
+      { "name": "3 star", "count": 120000 },
+      { "name": "4 star", "count": 180000 },
+      { "name": "5 star", "count": 250000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/yFsYBKjX/Pinterest-Pinterest.jpg",
+    "title": "Pinterest",
+    "companyName": "Pinterest, Inc.",
+    "id": 16,
+    "description": "A visual discovery engine for finding ideas like recipes, home inspiration, and more.",
+    "size": 190.2,
+    "reviews": 720000,
+    "ratingAvg": 4.5,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 60000 },
+      { "name": "3 star", "count": 90000 },
+      { "name": "4 star", "count": 150000 },
+      { "name": "5 star", "count": 250000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/d0jBxVQF/Discord-Logo-Icon-editorial-vector.jpg",
+    "title": "Discord",
+    "companyName": "Discord Inc.",
+    "id": 17,
+    "description": "A voice, video, and text communication app for communities and gamers.",
+    "size": 280.6,
+    "reviews": 1100000,
+    "ratingAvg": 4.7,
+    "downloads": "500M+",
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 70000 },
+      { "name": "3 star", "count": 120000 },
+      { "name": "4 star", "count": 200000 },
+      { "name": "5 star", "count": 300000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/5gbGMgMw/4c746f22-8cd4-48a1-8171-49f05ba42242.jpg",
+    "title": "Reddit",
+    "companyName": "Reddit Inc.",
+    "id": 18,
+    "description": "A social news aggregation, web content rating, and discussion website.",
+    "size": 210.1,
+    "reviews": 840000,
+    "ratingAvg": 4.4,
+    "downloads": "500M+",
+    "ratings": [
+      { "name": "1 star", "count": 60000 },
+      { "name": "2 star", "count": 90000 },
+      { "name": "3 star", "count": 120000 },
+      { "name": "4 star", "count": 180000 },
+      { "name": "5 star", "count": 300000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/zVNGGsMt/dc993cc9-a630-4e98-8251-f5844cf96a32.jpg",
+    "title": "Quora",
+    "companyName": "Quora Inc.",
+    "id": 19,
+    "description": "A Q&A platform where people ask and answer questions.",
+    "size": 150.7,
+    "reviews": 530000,
+    "ratingAvg": 4.3,
+    "downloads": "500M+",
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 80000 },
+      { "name": "4 star", "count": 120000 },
+      { "name": "5 star", "count": 250000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/PGLPNP72/92b0182d-946b-419a-88bc-b705a2de0f98.jpg",
+    "title": "Google Play Store",
+    "companyName": "Google LLC",
+    "id": 20,
+    "description": "The official app store for Android devices to download apps, games, and more.",
+    "size": 50.4,
+    "reviews": 3000000,
+    "ratingAvg": 4.6,
+    "downloads": "10B+",
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 800000 },
+      { "name": "5 star", "count": 1500000 }
+    ]
+  }
+]

@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Apps1Data = ({ data }) => {
+const AppsData20 = ({data}) => {
     const {image,title,downloads,ratingAvg} = data
     return (
-        <div className="transform transition-transform duration-500
+         <div className="transform transition-transform duration-500
                     hover:-translate-y-2 rounded-2xl shadow-md border bg-white p-3 flex flex-col items-center">
             <div className="w-full h-50 rounded-xl mb-3">
                 <img className='w-full h-50' src={image} alt="" />
@@ -29,4 +29,4 @@ const Apps1Data = ({ data }) => {
     );
 };
 
-export default Apps1Data;
+export default AppsData20;

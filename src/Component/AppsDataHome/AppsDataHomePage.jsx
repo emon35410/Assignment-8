@@ -16,9 +16,9 @@ const AppsDataHomePage = ({ Data }) => {
             </div>
 
             <Suspense>
-                <div className='grid grid-cols-1 md:grid-cols-4 gap-5 mx-8 my-5'>
+                <div className='grid grid-cols-1 md:grid-cols-4 gap-5 mx-8 my-5  hover:cursor-pointer'>
                     {
-                        Data.map(data => <Apps1Data data={data}></Apps1Data>)
+                         Data.map(data=><Apps1Data data={data}></Apps1Data>)
                     }
                 </div>
             </Suspense>
