@@ -1,8 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 const Apps1Data = ({ data }) => {
-    const {image,title,downloads,ratingAvg} = data
+    const {image,title,downloads,ratingAvg,id} = data
     return (
+        <Link to={`/AppDetails/${id}`}>
         <div className="transform transition-transform duration-500
                     hover:-translate-y-2 rounded-2xl shadow-md border bg-white p-3 flex flex-col items-center">
             <div className="w-full h-50 rounded-xl mb-3">
@@ -26,6 +28,7 @@ const Apps1Data = ({ data }) => {
             </div>
             
         </div>
+        </Link>
     );
 };
 
