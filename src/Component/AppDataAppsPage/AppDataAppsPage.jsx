@@ -3,6 +3,7 @@ import { useLoaderData } from 'react-router';
 import AppsData20 from './AppsData20';
 import apperrorImg from "../../assets/App-Error.png"
 
+
 const AppDataAppsPage = () => {
     const Data = useLoaderData();
     const [search, setSearch] = useState('')
@@ -27,13 +28,7 @@ const AppDataAppsPage = () => {
 
             </div>
             <div className='grid grid-cols-1 md:grid-cols-4 gap-5 mx-8 my-5  hover:cursor-pointer'>
-                <Suspense fallback={<div className="flex justify-center items-center h-60 space-x-1">
-                    <div className="w-2 h-6 bg-purple-500 animate-[bounce_1s_infinite]" />
-                    <div className="w-2 h-6 bg-purple-500 animate-[bounce_1s_infinite_0.2s]" />
-                    <div className="w-2 h-6 bg-purple-500 animate-[bounce_1s_infinite_0.4s]" />
-                    <div className="w-2 h-6 bg-purple-500 animate-[bounce_1s_infinite_0.6s]" />
-                </div>
-                }>
+                <Suspense fallback={<span className="loading loading-spinner text-error"></span>}>
                     { searchedApp.length > 0 ? (
                         searchedApp.map(data => <AppsData20 key={data.id} data={data} />)
                     ) : (

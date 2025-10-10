@@ -1,25 +1,31 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { AiFillLike } from 'react-icons/ai';
 import { FaDownload, FaStar } from 'react-icons/fa';
 import { useLoaderData } from 'react-router';
 import { toast, ToastContainer } from 'react-toastify';
+import { Bar, BarChart, CartesianGrid, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 
 const AppDetails = () => {
 
     const data = useLoaderData()
 
-    const { image, title, companyName, description, size, reviews, ratingAvg, downloads, ratings } = data;
+    const { id,image, title, companyName, description, size, reviews, ratingAvg, downloads, ratings } = data;
     const [click, setClick] = useState(false)
     const handleClick = () => {
         setClick(true)
         toast.success("Installed Succesful")
     }
+    useEffect(() => {
+        const installedApps = JSON.parse(localStorage.getItem("Installed")) || [];
+        const isInstalled = installedApps.some(app => app.id === id);
+        if (isInstalled) setClick(true);
+    }, [id]);
     const handleInstalled = () => {
         let UpdateList = []
         const existingList = JSON.parse(localStorage.getItem("Installed"))
         if (existingList) {
-            const isDuplicate = existingList.some(p=> p.id === data.id)
-            if(isDuplicate){
+            const isDuplicate = existingList.some(p => p.id === data.id)
+            if (isDuplicate) {
                 alert("this app already stored")
             }
             UpdateList = [...existingList, data] // remove const
@@ -28,7 +34,7 @@ const AppDetails = () => {
         }
         localStorage.setItem('Installed', JSON.stringify(UpdateList))
     }
-    
+
 
     return (
 
@@ -77,9 +83,29 @@ const AppDetails = () => {
                 </div>
 
             </div>
+            <hr />
 
             {/* App review chart */}
+            <div className='mx-10 space-y-3 my-5'>
+                <h1 className='font-semibold text-3xl'>Rating</h1>
+                <div className='bg-base-100 rounded-xl p-4 h-80'>
+                    <ResponsiveContainer width="100%" height="100%">
+                        <BarChart data={ratings}>
+                            <XAxis dataKey="name" />
+                            <YAxis />
+                            <Tooltip />
+                            <Bar dataKey="count" fill="#ff8811" />
+                        </BarChart>
+                    </ResponsiveContainer>
 
+                </div>
+            </div>
+            <hr />
+
+            <div className='mx-15'>
+                <h1 className='font-semibold text-2xl mb-4'>Description</h1>
+                <p className='text-[#627382] mb-8'>{description}</p>
+            </div>
 
         </>
     );
