@@ -1,16 +1,49 @@
-# React + Vite
+Home & App Listing (AppDataAppsPage)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Display all available apps in a responsive grid layout.
 
-Currently, two official plugins are available:
+Search functionality to filter apps by title.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Suspense fallback for loading states, with plans for an animated loader.
 
-## React Compiler
+App Details (AppDetails)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Shows detailed information of the selected app: image, title, developer, downloads, ratings, reviews, and description.
 
-## Expanding the ESLint configuration
+Dynamic BarChart with per-star review counts for each app using Recharts.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Install Now button that:
+
+Stores the app in localStorage under "Installed".
+
+Prevents duplicate installation.
+
+Persists installation state on page reload using useEffect.
+
+Toast notification when an app is installed.
+
+Installed Apps (InstalledApps)
+
+Displays a list of installed apps from localStorage.
+
+Allows sorting by size (ascending/descending).
+
+Routing (router)
+
+Configured dynamic routes using createBrowserRouter:
+
+/ → Home page with app listing.
+
+/app → Full apps catalog.
+
+/installation → Installed apps page.
+
+/AppDetails/:id → Dynamic app details page using loader to fetch data and filter by app ID.
+
+Data Management
+
+Used local JSON files (appsData8.json and appData20.json) as mock API.
+
+Managed state with useState and useEffect.
+
+localStorage to persist installed apps and button states across reloads.
